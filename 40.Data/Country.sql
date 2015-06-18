@@ -1,5 +1,5 @@
-insert into Country (Name) values ('Україна')
-insert into Country (Name) values ('Польща')
-insert into Country (Name) values ('Білорусія')
-insert into Country (Name) values ('Молдова')
+insert into Country (Name, LastUpdDT, LastUpdUS) values ('Україна', getdate(), 'SV')
+insert into Country (Name, LastUpdDT, LastUpdUS) values ('Польща', getdate(), 'SV')
+insert into Country (Name, LastUpdDT, LastUpdUS) values ('Білорусія', getdate(), 'SV')
+insert into Country (Name, LastUpdDT, LastUpdUS) values ('Молдова', getdate(), 'SV')
 
