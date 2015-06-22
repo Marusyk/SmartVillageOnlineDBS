@@ -16,3 +16,5 @@ The directories structure:
  - 70.Reports
  - 75.Messages
  - 80.PostScripts
+ 
+doc: https://docs.google.com/document/d/14Anl2SjO7SfSnNvAebnpTsfGA_MfmaWTJyux4UQxlVk/edit?usp=sharing
