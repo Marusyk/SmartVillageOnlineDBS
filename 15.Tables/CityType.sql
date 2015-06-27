@@ -7,7 +7,7 @@ BEGIN
   , [LastUpdUS] [varchar](50) NOT NULL
   , CONSTRAINT [SYS_CityType_PKY] PRIMARY KEY CLUSTERED 
     (
-       [CityTypeID] ASC
+       [ID] ASC
      ) WITH  FILLFACTOR = 95  ON [PRIMARY]
   )   ON [PRIMARY]
 END
