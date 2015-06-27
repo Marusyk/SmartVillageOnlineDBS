@@ -1,0 +1,8 @@
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('CityType', 'Типи населених пунктів', 1, getdate(), 'SV')
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('Country', 'Країни', 0, getdate(), 'SV')
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('Languages', 'Список доступних мов', 1, getdate(), 'SV')
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('StreetType', 'Типи вулиць', 1, getdate(), 'SV')
