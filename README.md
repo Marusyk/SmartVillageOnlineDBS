@@ -9,12 +9,10 @@ The directories structure:
  - 35.ForeignConstraints
  - 40.Data
  - 45.Views
- - 50.Finctions
+ - 50.Functions
  - 55.Procedures
  - 60.Triggers
  - 65.Datasets
  - 70.Reports
  - 75.Messages
  - 80.PostScripts
- 
-doc: https://docs.google.com/document/d/14Anl2SjO7SfSnNvAebnpTsfGA_MfmaWTJyux4UQxlVk/edit?usp=sharing
