@@ -21,12 +21,12 @@ BEGIN
   , [CatalogId] [int] NOT NULL
   , [IsSojourn] [bit] NOT NULL DEFAULT (0)
   , [Photo] [binary]
-  , [PadFirstName] [varchar](60)
-  , [PadName] [varchar](60)
-  , [PadLastName] [varchar](60)
-  , [DatFirstName] [varchar](60)
-  , [DatName] [varchar](60)
-  , [DatLastName] [varchar](60)
+  , [PadFirstName] [varchar](60) NULL
+  , [PadName] [varchar](60) NULL
+  , [PadLastName] [varchar](60) NULL
+  , [DatFirstName] [varchar](60) NULL
+  , [DatName] [varchar](60) NULL
+  , [DatLastName] [varchar](60) NULL
   , [LastUpdDT] [smalldatetime] NOT NULL
   , [LastUpdUS] [varchar](50) NOT NULL	
   , CONSTRAINT [SYS_Person_PKY] PRIMARY KEY CLUSTERED 
