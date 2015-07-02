@@ -3,7 +3,7 @@ BEGIN
   CREATE TABLE [DocumentType]
   ( [ID] [int] IDENTITY(1,1) NOT NULL
   , [Name] [varchar](50) NOT NULL
-  , [Code] [varchar](20) NOT NULL
+  , [Code] [varchar](20) NULL
   , [LastUpdDT] [smalldatetime] NOT NULL
   , [LastUpdUS] [varchar](50) NOT NULL
   , CONSTRAINT [SYS_DocumentType_PKY] PRIMARY KEY CLUSTERED 
