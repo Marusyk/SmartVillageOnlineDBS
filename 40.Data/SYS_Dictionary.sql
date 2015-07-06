@@ -33,3 +33,6 @@ values ('Animals', 'Тварини', 0, getdate(), 'SV')
 
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
 values ('DocumentType', 'Типи документів', 0, getdate(), 'SV')
+
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('PassAuthority', 'Орган, який видав документ', 0, getdate(), 'SV')
