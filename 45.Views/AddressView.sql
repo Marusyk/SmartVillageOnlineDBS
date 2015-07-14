@@ -29,6 +29,6 @@ from   Address ADR
        inner join CityType CTT on CTY.CityTypeID = CTT.ID
        inner join Street STR on ADR.StreetID = STR.ID
        inner join StreetType STT on STR.StreetTypeID = STT.ID
-       left join District DST on CTY.DistrictID = DST.ID
+       left  join District DST on CTY.DistrictID = DST.ID
        inner join Region REG on REG.ID = ISNULL(DST.RegionID, CTY.RegionID)
        inner join Country COU on REG.CountryID = COU.ID
