@@ -2,7 +2,6 @@ IF NOT EXISTS (select * from dbo.sysobjects where id = object_id(N'[Address]') a
 BEGIN
   CREATE TABLE [Address]
   ( [ID] [int] IDENTITY(1,1) NOT NULL
-  , [Name] [varchar](50) NOT NULL
   , [CityID] [int] NOT NULL
   , [StreetID] [int] NULL
   , [PostCode] [int] NULL
