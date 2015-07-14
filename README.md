@@ -1,5 +1,6 @@
-# SmartVillageOnlineDBS
+# SmartVillage-Online DataBase Scripts(DBS)
 This repository for database scripts
+
 The directories structure:
  - 10.PreScripts
  - 15.Tables
