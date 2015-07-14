@@ -36,3 +36,12 @@ values ('DocumentType', 'Типи документів', 0, getdate(), 'SV')
 
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
 values ('PassAuthority', 'Орган, який видав документ', 0, getdate(), 'SV')
+
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('City', 'Населені пункти', 0, getdate(), 'SV')
+
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('Region', 'Області', 0, getdate(), 'SV')
+
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('District', 'Райони', 0, getdate(), 'SV')
