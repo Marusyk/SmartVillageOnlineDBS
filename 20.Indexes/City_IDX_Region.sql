@@ -1,0 +1,8 @@
+IF NOT EXISTS (SELECT * FROM SYS.INDEXES WHERE OBJECT_ID = OBJECT_ID(N'[dbo].[City]') AND NAME = N'City_IDX_Region')
+BEGIN
+  CREATE NONCLUSTERED INDEX [City_IDX_Region] ON [dbo].[City]
+  (
+   [RegionID] ASC
+  ) ON [PRIMARY]
+END
+GO
