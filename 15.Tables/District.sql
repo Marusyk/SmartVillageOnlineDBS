@@ -1,14 +1,12 @@
-IF NOT EXISTS (select * from dbo.sysobjects where id = object_id(N'[City]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+IF NOT EXISTS (select * from dbo.sysobjects where id = object_id(N'[District]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
 BEGIN
-  CREATE TABLE [City]
+  CREATE TABLE [District]
   ( [ID] [int] IDENTITY(1,1) NOT NULL
   , [Name] [varchar](50) NOT NULL
-  , [CityTypeID] [int] NOT NULL
-  , [DistrictID] [int] NULL
   , [RegionID] [int] NOT NULL
   , [LastUpdDT] [smalldatetime] NOT NULL
   , [LastUpdUS] [varchar](50) NOT NULL	
-  , CONSTRAINT [SYS_City_PKY] PRIMARY KEY CLUSTERED 
+  , CONSTRAINT [SYS_District_PKY] PRIMARY KEY CLUSTERED 
     (
       [ID] ASC
     ) WITH  FILLFACTOR = 95  ON [PRIMARY]

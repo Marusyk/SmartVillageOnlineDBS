@@ -4,7 +4,7 @@ BEGIN
 		(
 			[CityTypeID]
 		) REFERENCES [CityType] (
-			[CityTypeID]
+			[ID]
 		)
 END
 GO

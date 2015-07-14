@@ -4,7 +4,7 @@ BEGIN
 		(
 			[StreetTypeID]
 		) REFERENCES [StreetType] (
-			[StreetTypeID]
+			[ID]
 		)
 END
 GO
