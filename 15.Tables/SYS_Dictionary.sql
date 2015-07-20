@@ -4,7 +4,7 @@ BEGIN
   ( [ID] [int] IDENTITY(1,1) NOT NULL
   , [Name] [varchar](50) NOT NULL
   , [Description] [varchar](250) NOT NULL
-  , [IsStatic] [bit] DEFAULT 0
+  , [IsStatic] [bit] NOT NULL DEFAULT 0
   , [LastUpdDT] [smalldatetime] NOT NULL
   , [LastUpdUS] [varchar](50) NOT NULL	
   , CONSTRAINT [SYS_Dictionary_PKY] PRIMARY KEY CLUSTERED 
