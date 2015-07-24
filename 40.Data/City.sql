@@ -1,14 +1,14 @@
 declare @LastUpdDt smalldatetime, @LastUpdUs varchar(50)
 SET @LastUpdDt = GETDATE()
-SET @LastUpdUs = 'SV'
+SET @LastUpdUs = N'SV'
 
 insert into City(Name, CityTypeID, DistrictID, RegionID, LastUpdDT, LastUpdUS)
-select 'Тростянець', 5, 1, 2, @LastUpdDt, @LastUpdUs
+select N'Тростянець', 1, 1, 2, @LastUpdDt, @LastUpdUs
 insert into City(Name, CityTypeID, DistrictID, RegionID, LastUpdDT, LastUpdUS)
-select 'Чернівці', 6, NULL, 1, @LastUpdDt, @LastUpdUs
+select N'Чернівці', 2, NULL, 1, @LastUpdDt, @LastUpdUs
 insert into City(Name, CityTypeID, DistrictID, RegionID, LastUpdDT, LastUpdUS)
-select 'Снятин', 6, 1, 2, @LastUpdDt, @LastUpdUs
+select N'Снятин', 2, 1, 2, @LastUpdDt, @LastUpdUs
 insert into City(Name, CityTypeID, DistrictID, RegionID, LastUpdDT, LastUpdUS)
-select 'Київ', 6, NULL, 3, @LastUpdDt, @LastUpdUs
+select N'Київ', 2, NULL, 3, @LastUpdDt, @LastUpdUs
 insert into City(Name, CityTypeID, DistrictID, RegionID, LastUpdDT, LastUpdUS)
-select 'Лужани', 7, 3, 1, @LastUpdDt, @LastUpdUs
+select N'Лужани', 3, 3, 1, @LastUpdDt, @LastUpdUs

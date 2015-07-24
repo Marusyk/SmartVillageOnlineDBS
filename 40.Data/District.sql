@@ -1,12 +1,12 @@
 declare @LastUpdDt smalldatetime, @LastUpdUs varchar(50)
 SET @LastUpdDt = GETDATE()
-SET @LastUpdUs = 'SV'
+SET @LastUpdUs = N'SV'
 
 insert into District(Name, RegionID, LastUpdDT, LastUpdUS)
-select 'Снятинський', 2, @LastUpdDt, @LastUpdUs
+select N'Снятинський', 2, @LastUpdDt, @LastUpdUs
 insert into District(Name, RegionID, LastUpdDT, LastUpdUS)
-select 'Косівський', 2, @LastUpdDt, @LastUpdUs
+select N'Косівський', 2, @LastUpdDt, @LastUpdUs
 insert into District(Name, RegionID, LastUpdDT, LastUpdUS)
-select 'Кіцманський', 1, @LastUpdDt, @LastUpdUs
+select N'Кіцманський', 1, @LastUpdDt, @LastUpdUs
 insert into District(Name, RegionID, LastUpdDT, LastUpdUS)
-select 'Вижницький', 1, @LastUpdDt, @LastUpdUs
+select N'Вижницький', 1, @LastUpdDt, @LastUpdUs

@@ -2,17 +2,17 @@ IF NOT EXISTS (select * from dbo.sysobjects where id = object_id(N'[Person]') an
 BEGIN
   CREATE TABLE [Person]
   ( [ID] [int] IDENTITY(1,1) NOT NULL
-  , [FirstName] [varchar](60) NOT NULL
-  , [Name] [varchar](60) NOT NULL
-  , [LastName] [varchar](60) NOT NULL
+  , [FirstName] [nvarchar](60) NOT NULL
+  , [Name] [nvarchar](60) NOT NULL
+  , [LastName] [nvarchar](60) NOT NULL
   , [DateBirth] [date] NOT NULL
   , [Sex] [bit] NOT NULL
   , [IsResident] [bit] NOT NULL DEFAULT (1)
   , [AddressBirthId] [int] NULL
   , [AddressLiveId] [int] NULL
   , [NationalityId] [int] NULL
-  , [IdentificationCode] [varchar](10) NULL
-  , [PassSeria] [varchar](5) NULL
+  , [IdentificationCode] [nvarchar](10) NULL
+  , [PassSeria] [nvarchar](5) NULL
   , [PassNr] [int] NULL
   , [PassDate] [date] NULL
   , [PassAuthorityId] [int] NULL
@@ -21,14 +21,14 @@ BEGIN
   , [CatalogId] [int] NOT NULL
   , [IsSojourn] [bit] NOT NULL DEFAULT (0)
   , [Photo] [binary]
-  , [PadFirstName] [varchar](60) NULL
-  , [PadName] [varchar](60) NULL
-  , [PadLastName] [varchar](60) NULL
-  , [DatFirstName] [varchar](60) NULL
-  , [DatName] [varchar](60) NULL
-  , [DatLastName] [varchar](60) NULL
+  , [PadFirstName] [nvarchar](60) NULL
+  , [PadName] [nvarchar](60) NULL
+  , [PadLastName] [nvarchar](60) NULL
+  , [DatFirstName] [nvarchar](60) NULL
+  , [DatName] [nvarchar](60) NULL
+  , [DatLastName] [nvarchar](60) NULL
   , [LastUpdDT] [smalldatetime] NOT NULL
-  , [LastUpdUS] [varchar](50) NOT NULL	
+  , [LastUpdUS] [nvarchar](50) NOT NULL	
   , CONSTRAINT [SYS_Person_PKY] PRIMARY KEY CLUSTERED 
     (
       [ID] ASC

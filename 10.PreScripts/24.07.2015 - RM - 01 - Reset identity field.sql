@@ -13,7 +13,9 @@ declare @TableName varchar(100)
 declare cur_Cursor CURSOR STATIC
 FOR 
 
-  select TABLE_NAME from information_schema.tables
+  select  TABLE_NAME 
+  from    information_schema.tables
+  where   TABLE_TYPE = 'BASE TABLE'
 
 OPEN  cur_Cursor
 FETCH NEXT FROM cur_Cursor into @TableName

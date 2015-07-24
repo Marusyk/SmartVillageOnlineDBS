@@ -1,12 +1,12 @@
 declare @LastUpdDt smalldatetime, @LastUpdUs varchar(50)
 SET @LastUpdDt = GETDATE()
-SET @LastUpdUs = 'SV'
+SET @LastUpdUs = N'SV'
 
 insert into CityType
-select 'село', @LastUpdDt, @LastUpdUs
+select N'село', @LastUpdDt, @LastUpdUs
 insert into CityType
-select 'місто', @LastUpdDt, @LastUpdUs
+select N'місто', @LastUpdDt, @LastUpdUs
 insert into CityType
-select 'селище', @LastUpdDt, @LastUpdUs
+select N'селище', @LastUpdDt, @LastUpdUs
 insert into CityType
-select 'хутір', @LastUpdDt, @LastUpdUs
+select N'хутір', @LastUpdDt, @LastUpdUs

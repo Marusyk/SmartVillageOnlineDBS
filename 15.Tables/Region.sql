@@ -2,10 +2,10 @@ IF NOT EXISTS (select * from dbo.sysobjects where id = object_id(N'[Region]') an
 BEGIN
   CREATE TABLE [Region]
   ( [ID] [int] IDENTITY(1,1) NOT NULL
-  , [Name] [varchar](50) NOT NULL
+  , [Name] [nvarchar](50) NOT NULL
   , [CountryID] [int] NOT NULL
   , [LastUpdDT] [smalldatetime] NOT NULL
-  , [LastUpdUS] [varchar](50) NOT NULL	
+  , [LastUpdUS] [nvarchar](50) NOT NULL	
   , CONSTRAINT [SYS_Region_PKY] PRIMARY KEY CLUSTERED 
     (
       [ID] ASC

@@ -5,10 +5,10 @@ BEGIN
   , [CityID] [int] NOT NULL
   , [StreetID] [int] NULL
   , [PostCode] [int] NULL
-  , [BuildNr] [varchar](10) NULL
-  , [FlatNr] [varchar](10) NULL
+  , [BuildNr] [nvarchar](10) NULL
+  , [FlatNr] [nvarchar](10) NULL
   , [LastUpdDT] [smalldatetime] NOT NULL
-  , [LastUpdUS] [varchar](50) NOT NULL	
+  , [LastUpdUS] [nvarchar](50) NOT NULL	
   , CONSTRAINT [SYS_Address_PKY] PRIMARY KEY CLUSTERED 
     (
       [ID] ASC
