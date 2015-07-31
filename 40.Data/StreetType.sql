@@ -1,12 +1,12 @@
-declare @LastUpdDt smalldatetime, @LastUpdUs varchar(50)
+п»їdeclare @LastUpdDt smalldatetime, @LastUpdUs varchar(50)
 SET @LastUpdDt = GETDATE()
 SET @LastUpdUs = N'SV'
 
 insert into StreetType
-select N'вулиця', @LastUpdDt, @LastUpdUs
+select N'РІСѓР»РёС†В¤', @LastUpdDt, @LastUpdUs
 insert into StreetType
-select N'урочище', @LastUpdDt, @LastUpdUs
+select N'СѓСЂРѕС‡РёС‰Рµ', @LastUpdDt, @LastUpdUs
 insert into StreetType
-select N'провулок', @LastUpdDt, @LastUpdUs
+select N'РїСЂРѕРІСѓР»РѕРє', @LastUpdDt, @LastUpdUs
 insert into StreetType
-select N'проспект', @LastUpdDt, @LastUpdUs
+select N'РїСЂРѕСЃРїРµРєС‚', @LastUpdDt, @LastUpdUs

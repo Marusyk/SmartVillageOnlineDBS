@@ -1,5 +1,5 @@
-insert into Country (Name, LastUpdDT, LastUpdUS) values (N'Україна', getdate(), N'SV')
-insert into Country (Name, LastUpdDT, LastUpdUS) values (N'Польща', getdate(), N'SV')
-insert into Country (Name, LastUpdDT, LastUpdUS) values (N'Білорусія', getdate(), N'SV')
-insert into Country (Name, LastUpdDT, LastUpdUS) values (N'Молдова', getdate(), N'SV')
+п»їinsert into Country (Name, LastUpdDT, LastUpdUS) values (N'РЈРєСЂР°С—РЅР°', getdate(), N'SV')
+insert into Country (Name, LastUpdDT, LastUpdUS) values (N'РџРѕР»СЊС‰Р°', getdate(), N'SV')
+insert into Country (Name, LastUpdDT, LastUpdUS) values (N'Р‘С–Р»РѕСЂСѓСЃС–СЏ', getdate(), N'SV')
+insert into Country (Name, LastUpdDT, LastUpdUS) values (N'РњРѕР»РґРѕРІР°', getdate(), N'SV')
 
