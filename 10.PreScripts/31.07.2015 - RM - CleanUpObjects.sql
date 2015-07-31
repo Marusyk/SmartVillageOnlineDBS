@@ -1,8 +1,8 @@
 /*
- 31.07.2015 - RM - 01 - CleanUpObjects
+ 31.07.2015 - RM - CleanUpObjects
  Author:  Roman Marusyk
- Date:
-   31.07.2015   First version
+
+01 31.07.2015 RM Init
 
  Description:
 Script to clean up all data
