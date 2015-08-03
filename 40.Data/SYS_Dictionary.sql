@@ -2,6 +2,8 @@
 SET @LastUpdDT = GETDATE()
 SET @LastUpdUS = N'SV'
 
+delete from SYS_Dictionary
+
 /* ========================= ADDRESS =======================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
 values ('Address', N'Адреси', 0, @LastUpdDT, @LastUpdUS)
