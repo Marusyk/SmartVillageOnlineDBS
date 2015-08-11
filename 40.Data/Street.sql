@@ -5,7 +5,7 @@ SET @LastUpdDt = GETDATE()
 SET @LastUpdUs = N'SV'
 
 select @StreetTypeID = ID
-from   Region
+from   StreetType
 where Name = N'вулиця'
 
 IF NOT EXISTS(select 1 from Street where Name = N'Шевченка')
