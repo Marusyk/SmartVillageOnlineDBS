@@ -1,5 +1,5 @@
 ﻿declare @LastUpdDt smalldatetime, @LastUpdUs varchar(50)
-declare @CountryID into
+declare @CountryID int
 
 SET @LastUpdDt = GETDATE()
 SET @LastUpdUs = N'SV'

@@ -1,5 +1,5 @@
 ﻿declare @LastUpdDt smalldatetime, @LastUpdUs varchar(50)
-SET @LastUpdDt = @LastUpdDt
+SET @LastUpdDt = GETDATE()
 SET @LastUpdUs = N'SV'
 
 IF NOT EXISTS(select 1 from Country where Name = N'Україна')
