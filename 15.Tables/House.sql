@@ -3,7 +3,7 @@ BEGIN
   CREATE TABLE [House]
   ( [ID] [int] IDENTITY(1,1) NOT NULL
   , [HouseNr] [nvarchar](10) NOT NULL
-  , [KadastrNr] [nvarchar](10)
+  , [KadastrNr] [nvarchar](30)
   , [BuildNr] [nvarchar](10) NOT NULL
   , [AddressID] [int] NOT NULL
   , [PhoneNr] [nvarchar](12) NULL
