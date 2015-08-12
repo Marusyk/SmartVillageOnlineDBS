@@ -32,6 +32,13 @@ for %%G in (*.sql) do sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "%%G"
 cd ../40.Data
 rem In order dependencies
 sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "SYS_Dictionary.sql"
+sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "Animals.sql"
+sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "Catalog.sql"
+sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "DocumentType.sql"
+sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "FamilyRelations.sql"
+sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "FamilyStatus.sql"
+sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "Materials.sql"
+sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "Nationality.sql"
 sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "Country.sql"
 sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "Region.sql"
 sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "District.sql"
@@ -40,6 +47,8 @@ sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "StreetType.sql"
 sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "City.sql"
 sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "Street.sql"
 sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "Address.sql"
+sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "House.sql"
+sqlcmd /S MARUSYK\SQLEXPRESS /d SVData -E -i "Person.sql"
 
 cd..
 pause
