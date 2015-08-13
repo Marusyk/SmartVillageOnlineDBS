@@ -10,7 +10,7 @@ where Name = N'вулиця'
 
 IF NOT EXISTS(select 1 from Street where Name = N'Шевченка')
 BEGIN
-  insert into Street
+  insert into Street(Name, StreetTypeID, LastUpdDt, LastUpdUs)
   select N'Шевченка'
   ,         @StreetTypeID
   ,         @LastUpdDt
@@ -19,7 +19,7 @@ END
 
 IF NOT EXISTS(select 1 from Street where Name = N'Головна')
 BEGIN
-  insert into Street
+  insert into Street(Name, StreetTypeID, LastUpdDt, LastUpdUs)
   select N'Головна'
   ,         @StreetTypeID
   ,         @LastUpdDt
@@ -28,7 +28,7 @@ END
 
 IF NOT EXISTS(select 1 from Street where Name = N'Січових стрільців')
 BEGIN
-  insert into Street
+  insert into Street(Name, StreetTypeID, LastUpdDt, LastUpdUs)
   select N'Січових стрільців'
   ,         @StreetTypeID
   ,         @LastUpdDt
@@ -37,7 +37,7 @@ END
 
 IF NOT EXISTS(select 1 from Street where Name = N'Українська')
 BEGIN
-  insert into Street
+  insert into Street(Name, StreetTypeID, LastUpdDt, LastUpdUs)
   select N'Українська'
   ,         @StreetTypeID
   ,         @LastUpdDt
@@ -50,7 +50,7 @@ where Name = N'проспект'
 
 IF NOT EXISTS(select 1 from Street where Name = N'Незалежності')
 BEGIN
-  insert into Street
+  insert into Street(Name, StreetTypeID, LastUpdDt, LastUpdUs)
   select N'Незалежності'
   ,         @StreetTypeID
   ,         @LastUpdDt
