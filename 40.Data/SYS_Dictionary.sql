@@ -70,7 +70,7 @@ values ('Street', N'Вулиці', 0, @LastUpdDT, @LastUpdUS)
 
 /* ========================= STREET TYPE ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
-values ('StreetType', N'Типи вулиць', 1, @LastUpdDT, @LastUpdUS)values
+values ('StreetType', N'Типи вулиць', 1, @LastUpdDT, @LastUpdUS)
 
 /* ========================= PERSON ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
