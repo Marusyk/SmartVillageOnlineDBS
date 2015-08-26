@@ -45,7 +45,7 @@ BEGIN
 END
 
 select @StreetTypeID = ID
-from   Region
+from   StreetType
 where Name = N'проспект'
 
 IF NOT EXISTS(select 1 from Street where Name = N'Незалежності')
