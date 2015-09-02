@@ -30,6 +30,7 @@ set PARAM_CONNECTONS=%PARAM_CONNECTONS:"=%
 %PARAM_CONNECTONS% "Address.sql"
 %PARAM_CONNECTONS% "House.sql"
 %PARAM_CONNECTONS% "Person.sql"
+%PARAM_CONNECTONS% "People.sql"
 
 :End
 cd ..
