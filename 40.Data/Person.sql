@@ -6,8 +6,8 @@ SET @LastUpdUs = N'SV'
 
 insert into Person
 (  FirstName
-  , Name
   , LastName
+  , MiddleName
   , DateBirth
   , Sex
   , IsResident
@@ -33,8 +33,8 @@ insert into Person
   , LastUpdDT
   , LastUpdUS
  )
- select N'Марусик'
- ,          N'Роман'
+ select N'Роман'
+ ,          N'Марусик'
  ,          N'Валерійович'
  ,          CONVERT(date, '14.02.1992', 104)
  ,          1

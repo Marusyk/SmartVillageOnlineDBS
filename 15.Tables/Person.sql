@@ -3,8 +3,8 @@ BEGIN
   CREATE TABLE [Person]
   ( [ID] [int] IDENTITY(1,1) NOT NULL
   , [FirstName] [nvarchar](60) NOT NULL
-  , [Name] [nvarchar](60) NOT NULL
   , [LastName] [nvarchar](60) NOT NULL
+  , [MiddleName] [nvarchar](60) NOT NULL
   , [DateBirth] [date] NOT NULL
   , [Sex] [bit] NOT NULL
   , [IsResident] [bit] NOT NULL DEFAULT (1)
