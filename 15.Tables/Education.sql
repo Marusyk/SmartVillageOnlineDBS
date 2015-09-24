@@ -9,7 +9,7 @@ BEGIN
   , [StartYear] [int] NULL
   , [EndYear] [int] NULL  
   , [DocumentID] [int] NULL
-  , [Description] [varchar](500) 
+  , [Description] [nvarchar](500) 
   , [LastUpdDT] [smalldatetime] NOT NULL
   , [LastUpdUS] [nvarchar](50) NOT NULL
   , CONSTRAINT [SYS_Education_PKY] PRIMARY KEY CLUSTERED 
