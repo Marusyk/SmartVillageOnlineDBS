@@ -79,3 +79,7 @@ values ('Person', N'Контрагенти', 0, @LastUpdDT, @LastUpdUS)
 /* ========================= INSTITUTION ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
 values ('Institution', N'Навчальні заклади', 0, @LastUpdDT, @LastUpdUS)
+
+/* ========================= SPECIALITIES ===================================*/
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('Specialities', N'Спеціальності', 0, @LastUpdDT, @LastUpdUS)
