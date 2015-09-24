@@ -75,3 +75,7 @@ values ('StreetType', N'Типи вулиць', 1, @LastUpdDT, @LastUpdUS)
 /* ========================= PERSON ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
 values ('Person', N'Контрагенти', 0, @LastUpdDT, @LastUpdUS)
+
+/* ========================= INSTITUTION ===================================*/
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('Institution', N'Навчальні заклади', 0, @LastUpdDT, @LastUpdUS)
