@@ -83,3 +83,7 @@ values ('Institution', N'Навчальні заклади', 0, @LastUpdDT, @Las
 /* ========================= SPECIALITIES ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
 values ('Specialities', N'Спеціальності', 0, @LastUpdDT, @LastUpdUS)
+
+/* ========================= EDUCATIONDEGREE ===================================*/
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('EducationDegree', N'Рівень освіти', 0, @LastUpdDT, @LastUpdUS)
