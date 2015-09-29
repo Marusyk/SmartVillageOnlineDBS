@@ -2,8 +2,8 @@
 BEGIN
   CREATE TABLE [PersonDocuments]
   ( [ID] [int] IDENTITY(1,1) NOT NULL
-  , [PersonID] [int] NULL
-  , [DocumentID] [int] NULL
+  , [PersonID] [int] NOT NULL
+  , [DocumentID] [int] NOT NULL
   , [LastUpdDT] [smalldatetime] NOT NULL
   , [LastUpdUS] [nvarchar](50) NOT NULL
   , CONSTRAINT [SYS_PersonDocuments_PKY] PRIMARY KEY CLUSTERED 
