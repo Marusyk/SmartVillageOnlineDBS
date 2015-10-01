@@ -91,3 +91,7 @@ values ('EducationDegree', N'Рівні освіти', 0, @LastUpdDT, @LastUpdUS
 /* ========================= ACTIVITYTYPES ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
 values ('ActivityTypes', N'Види діяльності', 0, @LastUpdDT, @LastUpdUS)
+
+/* ========================= COMPANIES ===================================*/
+insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
+values ('Companies', N'Компанії', 0, @LastUpdDT, @LastUpdUS)
