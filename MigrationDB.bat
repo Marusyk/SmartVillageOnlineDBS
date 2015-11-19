@@ -44,6 +44,9 @@ for %%G in (*.sql) do %runsqlcmd% "%%G"
 cd ../45.Views
 for %%G in (*.sql) do %runsqlcmd% "%%G"
 
+cd ../55.Procedures
+for %%G in (*.sql) do %runsqlcmd% "%%G"
+
 cd ../40.Data
 call ImportData.bat "%runsqlcmd%"
 
