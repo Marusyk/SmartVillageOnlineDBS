@@ -10,7 +10,7 @@ values ('Address', N'Адреси', 0, @LastUpdDT, @LastUpdUS)
 
 /* ========================= ANIMALS ======================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
-values ('Animals', N'Тварини', 0, @LastUpdDT, @LastUpdUS)
+values ('Animal', N'Тварини', 0, @LastUpdDT, @LastUpdUS)
 
 /* ========================= CITY ==========================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
@@ -42,7 +42,7 @@ values ('FamilyStatus', N'Сімейний стан', 0, @LastUpdDT, @LastUpdUS)
 
 /* ========================= MATERIALS =====================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
-values ('Materials', N'Матеріали', 0, @LastUpdDT, @LastUpdUS)
+values ('Material', N'Матеріали', 0, @LastUpdDT, @LastUpdUS)
 
 /* ========================= NATIONALITY ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
@@ -82,7 +82,7 @@ values ('Institution', N'Навчальні заклади', 0, @LastUpdDT, @Las
 
 /* ========================= SPECIALITIES ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
-values ('Specialities', N'Спеціальності', 0, @LastUpdDT, @LastUpdUS)
+values ('Speciality', N'Спеціальності', 0, @LastUpdDT, @LastUpdUS)
 
 /* ========================= EDUCATIONDEGREE ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
@@ -90,8 +90,8 @@ values ('EducationDegree', N'Рівні освіти', 0, @LastUpdDT, @LastUpdUS
 
 /* ========================= ACTIVITYTYPES ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
-values ('ActivityTypes', N'Види діяльності', 0, @LastUpdDT, @LastUpdUS)
+values ('ActivityType', N'Види діяльності', 0, @LastUpdDT, @LastUpdUS)
 
 /* ========================= COMPANIES ===================================*/
 insert into SYS_Dictionary (Name, Description, IsStatic, LastUpdDT, LastUpdUS) 
-values ('Companies', N'Компанії', 0, @LastUpdDT, @LastUpdUS)
+values ('Company', N'Компанії', 0, @LastUpdDT, @LastUpdUS)
